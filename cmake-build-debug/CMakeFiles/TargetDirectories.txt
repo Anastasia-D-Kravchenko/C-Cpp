@@ -1,0 +1,3 @@
+/Volumes/users/s32802/pjc/cmake-build-debug/CMakeFiles/pjc26.dir
+/Volumes/users/s32802/pjc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/users/s32802/pjc/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,21 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Volumes/users/s32802/pjc -B /Volumes/users/s32802/pjc/cmake-build-debug
--- The C compiler identification is AppleClang 16.0.0.16000026
--- The CXX compiler identification is AppleClang 16.0.0.16000026
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
-CMake Error at CMakeLists.txt:8 (add_executable):
-  add_executable cannot create target "pjc26" because another target with the
-  same name already exists.  The existing target is an executable created in
-  source directory "/Volumes/users/s32802/pjc".  See documentation for policy
-  CMP0002 for more details.
-
-
--- Configuring incomplete, errors occurred!
+-- Configuring done (3.2s)
+-- Generating done (14.9s)
+-- Build files have been written to: /Volumes/users/s32802/pjc/cmake-build-debug

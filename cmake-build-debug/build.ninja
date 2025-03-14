@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Volumes/users/s32802/pjc/cmake-build-debug/
 
 build cmake_object_order_depends_target_pjc26: phony || .
 
-build CMakeFiles/pjc26.dir/ShortTest1.cpp.o: CXX_COMPILER__pjc26_unscanned_Debug /Volumes/users/s32802/pjc/ShortTest1.cpp || cmake_object_order_depends_target_pjc26
-  DEP_FILE = CMakeFiles/pjc26.dir/ShortTest1.cpp.o.d
+build CMakeFiles/pjc26.dir/main.cpp.o: CXX_COMPILER__pjc26_unscanned_Debug /Volumes/users/s32802/pjc/main.cpp || cmake_object_order_depends_target_pjc26
+  DEP_FILE = CMakeFiles/pjc26.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/pjc26.dir
   OBJECT_FILE_DIR = CMakeFiles/pjc26.dir
@@ -63,7 +63,7 @@ build CMakeFiles/pjc26.dir/ShortTest1.cpp.o: CXX_COMPILER__pjc26_unscanned_Debug
 #############################################
 # Link the executable pjc26
 
-build pjc26: CXX_EXECUTABLE_LINKER__pjc26_Debug CMakeFiles/pjc26.dir/ShortTest1.cpp.o
+build pjc26: CXX_EXECUTABLE_LINKER__pjc26_Debug CMakeFiles/pjc26.dir/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/pjc26.dir
   POST_BUILD = :
