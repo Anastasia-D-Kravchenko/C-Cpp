@@ -164,8 +164,5 @@ int main() {
     std::cout << "Height "
               << height << "\n";
 
-    iterator myObject3;
-    myObject3.iterators();
-
     return 0;
 }
