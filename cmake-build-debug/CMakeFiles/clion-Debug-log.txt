@@ -1,22 +1,13 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Volumes/users/s32802/pjc -B /Volumes/users/s32802/pjc/cmake-build-debug
 Cloning into 'fmt-src'...
-error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
-error: 7815 bytes of body are still expected
+error: 995 bytes of body are still expected
 fetch-pack: unexpected disconnect while reading sideband packet
 fatal: early EOF
 fatal: fetch-pack: invalid index-pack output
 Cloning into 'fmt-src'...
-error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
-error: 584 bytes of body are still expected
-fetch-pack: unexpected disconnect while reading sideband packet
-fatal: early EOF
-fatal: fetch-pack: invalid index-pack output
+/Volumes/users/s32802/pjc/cmake-build-debug/_deps/fmt-src/.git: No such file or directory
 Cloning into 'fmt-src'...
-error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
-error: 5803 bytes of body are still expected
-fetch-pack: unexpected disconnect while reading sideband packet
-fatal: early EOF
-fatal: fetch-pack: invalid index-pack output
+/Volumes/users/s32802/pjc/cmake-build-debug/_deps/fmt-src/.git: No such file or directory
 Had to git clone more than once: 3 times.
 CMake Error at cmake-build-debug/CMakeFiles/fc-tmp/fmt/fmt-gitclone.cmake:50 (message):
   Failed to clone repository: 'https://github.com/fmtlib/fmt'
