@@ -1,34 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Volumes/users/s32802/pjc -B /Volumes/users/s32802/pjc/cmake-build-debug
-Cloning into 'fmt-src'...
-error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
-error: 30 bytes of body are still expected
-fetch-pack: unexpected disconnect while reading sideband packet
-fatal: early EOF
-fatal: fetch-pack: invalid index-pack output
-Cloning into 'fmt-src'...
-error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
-error: 4413 bytes of body are still expected
-fetch-pack: unexpected disconnect while reading sideband packet
-fatal: early EOF
-fatal: fetch-pack: invalid index-pack output
-Cloning into 'fmt-src'...
-error: RPC failed; curl 92 HTTP/2 stream 1 was not closed cleanly: CANCEL (err 8)
-error: 7397 bytes of body are still expected
-fetch-pack: unexpected disconnect while reading sideband packet
-fatal: early EOF
-fatal: fetch-pack: invalid index-pack output
-Had to git clone more than once: 3 times.
-CMake Error at cmake-build-debug/CMakeFiles/fc-tmp/fmt/fmt-gitclone.cmake:50 (message):
-  Failed to clone repository: 'https://github.com/fmtlib/fmt'
-Call Stack (most recent call first):
-  cmake-build-debug/CMakeFiles/fc-tmp/fmt/download.cmake:7 (include)
-  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FetchContent.cmake:1753 (include)
-  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FetchContent.cmake:1706 (__FetchContent_doStepDirect)
-  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FetchContent.cmake:1607 (__FetchContent_populateDirect)
-  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
-  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FetchContent.cmake:2145 (cmake_language)
-  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)
-  CMakeLists.txt:14 (FetchContent_MakeAvailable)
-
-
--- Configuring incomplete, errors occurred!
+-- Configuring done (3.0s)
+-- Generating done (10.6s)
+-- Build files have been written to: /Volumes/users/s32802/pjc/cmake-build-debug
