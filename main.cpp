@@ -167,12 +167,73 @@ int main() {
     //
     // return 0;
 
-    auto const word = std::string("hello");
-    auto text = word.back() + word + word.front(); // ohelloh
-    std::ranges::sort(text); // abcdefghigknlmoprt => ehhlloo
-    std::cout << text << "\n";
-    std::cout << word.size() << "\n"; // 5
 
-    auto str = std::string();
+
+
+
+
+                                       //---------------------------------Preparation 1---------------------------------
+
+//    auto const word = std::string("hello");
+//    auto text = word.back() + word + word.front(); // ohelloh
+//    std::ranges::sort(text); // abcdefghigknlmoprt => ehhlloo
+//    std::cout << text << "\n";
+//    std::cout << word.size() << "\n"; // 5
+//
+//    auto str = std::vector<std::string>(3);
+//    for ( int i = 0; i < 3; i++) {
+//        std::cin >> str[i];
+//    }
+//    auto sorted = str;
+//    std::ranges::sort(str);
+//    auto bol = false;
+//    for ( int i = 0; i < 3; i++) {
+//        std::cout << sorted[i] << " " << str[i] << "\n";
+//        if ( sorted[i] != str[i] ) {
+//            bol = true;
+//        }
+//    }
+//    if ( bol ) {
+//        std::cout << "#"; // not alp
+//    }else std::cout << "%";
+
+
+                                       //---------------------------------Preparation 2---------------------------------
+
+//    auto const words = std::vector<std::string>{"hello", "there"};
+//    auto word = words[0];
+//    std::ranges::sort(word);
+//    std::cout << words.front() << "\n";
+//    std::cout << word << "\n";
+//
+//    auto word1 = std::string();
+//    auto word2 = std::string();
+//    std::cin >> word1;
+//    std::cin >> word2;
+//    if ( word1.size() > word2.size() ){
+//        std::cout << word1;
+//    } else if ( word1.size() < word2.size() ){
+//        std::cout << word2;
+//    }else{
+//        if ( word1.front() < word2.front() ){ // A 65 B 66 B > A the bigger the later
+//            std::cout << word1;
+//        } else{
+//            std::cout << word2;
+//        }
+//    }
+
+
+
+                                       //---------------------------------Preparation 3---------------------------------
+
+    auto word = std::string("hello");
+    auto also = word;
+    std::ranges::reverse(word);
+    std::ranges::sort(also);
+    std::cout << word << '\n';
+    std::cout << also;
+
+
+
     return 0;
 }
