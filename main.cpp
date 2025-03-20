@@ -8,12 +8,79 @@
 #include <cstdlib>
 #include <ctime>
 #include <ranges>
+#include <map>
+#include <cassert>
+#include <set>
 
 #include "lesson1/main.h"
 #include "lesson1/ShortTest1.h"
 #include "lesson2/iterator.h"
 
+
+
+
+double dotProduct(const std::vector<double>& vec1, const std::vector<double>& vec2) {
+    assert(vec1.size() == vec2.size());
+    double result = 0.0;
+    for (size_t i = 0; i < vec1.size(); i++) result += vec1[i] * vec2[i];
+    return result;
+}
+
+
+
+void displayEveryNth(const std::vector<int>& vec, int n) {
+    for (auto it = vec.begin(); it < vec.end(); it += n) {
+        std::cout << *it << " ";
+    }
+    std::cout << std::endl;
+}
+
+void displayEveryNth(const std::set<int>& s, int n) {
+    auto it = s.begin();
+    int count = 0;
+    while (it != s.end()) {
+        if (count % n == 0) {
+            std::cout << *it << " ";
+        }
+        ++it;
+        ++count;
+    }
+}
+
 int main() {
+
+    // std::vector<int> numbs(7);
+    // std::vector<int> num;
+    // for (auto i = 0; i < 7; i++) std::cin >> numbs[i];
+    // for (auto i = 0; i < 7; i++) {
+    //     if (numbs[i] != *std::ranges::max_element(numbs) && numbs[i] != *std::ranges::min_element(numbs)) {
+    //         num.push_back(numbs[i]);
+    //     }
+    // }
+    // for (auto i : num) std::cout << i << " ";
+
+
+    std::vector<double> vec1 = {1.0, 2.0, 3.0};
+    std::vector<double> vec2 = {4.0, 5.0, 6.0};
+
+    double result = dotProduct(vec1, vec2);
+    std::cout << "Dot product: " << result << std::endl;
+
+
+
+    std::vector<int> vec = {1, 2, 3, 4, 5, 6, 7};
+    std::cout << "Vector: ";
+    displayEveryNth(vec, 2);
+
+    std::set<int> s = {1, 2, 3, 4, 5, 6, 7};
+    std::cout << "Set: ";
+    displayEveryNth(s, 3);
+
+
+    return 0;
+}
+
+int past() {
     // std::cout << "hello world\n";
     //
     // auto text = std::string();
@@ -180,22 +247,23 @@ int main() {
 //    std::cout << text << "\n";
 //    std::cout << word.size() << "\n"; // 5
 //
-//    auto str = std::vector<std::string>(3);
+//    auto str = std::vector<std::string>();
+//    auto temp = std::string();
 //    for ( int i = 0; i < 3; i++) {
-//        std::cin >> str[i];
+//        std::cin >> temp;
+//        str.push_back(temp);
 //    }
 //    auto sorted = str;
 //    std::ranges::sort(str);
-//    auto bol = false;
-//    for ( int i = 0; i < 3; i++) {
-//        std::cout << sorted[i] << " " << str[i] << "\n";
-//        if ( sorted[i] != str[i] ) {
-//            bol = true;
-//        }
-//    }
-//    if ( bol ) {
-//        std::cout << "#"; // not alp
-//    }else std::cout << "%";
+////    auto bol = false;
+////    for ( int i = 0; i < 3; i++) {
+////        std::cout << sorted[i] << " " << str[i] << "\n";
+////        if ( sorted[i] != str[i] ) {
+////            bol = true;
+////        }
+////    }
+//    if ( !std::ranges::equal(str, sorted) ) std::cout << "#"; // not alp
+//    else std::cout << "%";
 
 
                                        //---------------------------------Preparation 2---------------------------------
@@ -226,14 +294,59 @@ int main() {
 
                                        //---------------------------------Preparation 3---------------------------------
 
-    auto word = std::string("hello");
-    auto also = word;
-    std::ranges::reverse(word);
-    std::ranges::sort(also);
-    std::cout << word << '\n';
-    std::cout << also;
+//    auto word = std::string("hello");
+//    auto also = word;
+//    std::ranges::reverse(word);
+//    std::ranges::sort(also);
+//    std::cout << word << '\n';
+//    std::cout << also;
+//
 
 
+//    auto text = std::string("helloworld");
+//
+//    auto map  = std::map<char, int>();
+//    for (auto c : text) map[c] += 1;
+//
+//    for (auto [k, v] : map) {
+//        std::cout << k << " : " << v << "\n";
+//    }
+//
+//
+//    auto vec = std::vector<int>{11, 22, 33, 22, 33, 11};
+//
+//    auto middle = vec.begin() + vec.size() / 2;
+//
+//    std::ranges::sort(vec.begin(), middle);
+//    std::ranges::sort(middle, vec.end());
+//
+//    auto bothHalvesEqual = std::ranges::equal(
+//            vec.begin(), middle,
+//            middle, vec.end()
+//    );
+//
+//    std::cout << bothHalvesEqual;
+//
+//
+//    auto numbers = std::vector<int>(5, 1);
+//
+//    auto duplicates = std::ranges::unique(numbers);
+//    numbers.erase(duplicates.begin(), duplicates.end());
+//
+//    for ( auto i = 0; i < duplicates.size(); i++){
+//        std::cout << duplicates[i];
+//    }
 
-    return 0;
+    // auto numbs = std::vector<int>{45,32,67,68,98,1,2, 102, 202};
+    // std::ranges::sort(numbs);
+    // for( auto i : numbs ){
+    //     std::cout << i << "\n";
+    // }
+
+    // auto numbs = std::vector<int>(3);
+    // for ( auto i = 0; i < 3; i++) std::cin >> numbs[i];
+    // auto check = numbs;
+    // std::ranges::sort(numbs);
+    // if ( std::ranges::equal(numbs, check)) std::cout << "#";
+    // else std::cout << "%";
 }
