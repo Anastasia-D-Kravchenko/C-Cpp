@@ -11,43 +11,87 @@
 #include <map>
 #include <cassert>
 #include <set>
+#include <fmt/core.h>
 
 #include "lesson1/main.h"
 #include "lesson1/ShortTest1.h"
 #include "lesson2/iterator.h"
 
+// namespace v1 {
+//     void printLongestString(std::vector<std::string> vec) {
+//         auto longest = std::ranges::max(vec, {}, std::string::size);
+//         std::cout << "Longest string using std::ranges::max: " << longest << std::endl;
+//     }
+// }
+//
+// namespace v2 {
+//     void printLongestString(std::vector<std::string> vec) {
+//         auto longest = *std::ranges::max_element(vec, {}, [](std::string s){return std::ranges::size(s);});
+//         std::cout << "Longest string using std::ranges::max_element: " << longest << std::endl;
+//     }
+// }
+//
+// namespace v3 {
+//     void printLongestString(std::vector<std::string> vec) {
+//         auto shortest = std::ranges::min(vec, [](std::string a, std::string b){return a.size() > b.size();});
+//         std::cout << "Shortest string using std::ranges::min: " << shortest << std::endl;
+//     }
+// }
+//
+// namespace v4 {
+//     void printLongestString(std::vector<std::string> vec) {
+//         auto shortest = *std::ranges::min_element(vec, [](std::string a, std::string b){return a.size() > b.size();});
+//         std::cout << "Shortest string using std::ranges::min_element: " << shortest << std::endl;
+//     }
+// }
 
-
-
-double dotProduct(const std::vector<double>& vec1, const std::vector<double>& vec2) {
-    assert(vec1.size() == vec2.size());
-    double result = 0.0;
-    for (size_t i = 0; i < vec1.size(); i++) result += vec1[i] * vec2[i];
-    return result;
-}
-
-
-
-void displayEveryNth(const std::vector<int>& vec, int n) {
-    for (auto it = vec.begin(); it < vec.end(); it += n) {
-        std::cout << *it << " ";
-    }
-    std::cout << std::endl;
-}
-
-void displayEveryNth(const std::set<int>& s, int n) {
-    auto it = s.begin();
-    int count = 0;
-    while (it != s.end()) {
-        if (count % n == 0) {
-            std::cout << *it << " ";
-        }
-        ++it;
-        ++count;
-    }
-}
+// double dotProduct(const std::vector<double>& vec1, const std::vector<double>& vec2) {
+//     assert(vec1.size() == vec2.size());
+//     double result = 0.0;
+//     for (size_t i = 0; i < vec1.size(); i++) result += vec1[i] * vec2[i];
+//     return result;
+// }
+//
+//
+//
+// void displayEveryNth(const std::vector<int>& vec, int n) {
+//     for (auto it = vec.begin(); it < vec.end(); it += n) {
+//         std::cout << *it << " ";
+//     }
+//     std::cout << std::endl;
+// }
+//
+// void displayEveryNth(const std::set<int>& s, int n) {
+//     auto it = s.begin();
+//     int count = 0;
+//     while (it != s.end()) {
+//         if (count % n == 0) {
+//             std::cout << *it << " ";
+//         }
+//         ++it;
+//         ++count;
+//     }
+// }
 
 int main() {
+
+    fmt::println(
+                "[{}]\n[{}]\n[{}]\n[{}]",
+                reduceAdjacentWhitespaces("Abc"),
+                reduceAdjacentWhitespaces("A b c"),
+                reduceAdjacentWhitespaces("   A\tb c      "),
+                reduceAdjacentWhitespaces("A\t\tb\n \n  \t c")
+        );
+
+    // std::vector<std::string> words = {"apple", "banana", "cherry", "date", "elderberry"};
+    //
+    // v1::printLongestString(words);
+    // v2::printLongestString(words);
+    // v3::printLongestString(words);
+    // v4::printLongestString(words);
+    //
+    // return 0;
+
 
     // std::vector<int> numbs(7);
     // std::vector<int> num;
@@ -60,24 +104,24 @@ int main() {
     // for (auto i : num) std::cout << i << " ";
 
 
-    std::vector<double> vec1 = {1.0, 2.0, 3.0};
-    std::vector<double> vec2 = {4.0, 5.0, 6.0};
-
-    double result = dotProduct(vec1, vec2);
-    std::cout << "Dot product: " << result << std::endl;
-
-
-
-    std::vector<int> vec = {1, 2, 3, 4, 5, 6, 7};
-    std::cout << "Vector: ";
-    displayEveryNth(vec, 2);
-
-    std::set<int> s = {1, 2, 3, 4, 5, 6, 7};
-    std::cout << "Set: ";
-    displayEveryNth(s, 3);
-
-
-    return 0;
+    // std::vector<double> vec1 = {1.0, 2.0, 3.0};
+    // std::vector<double> vec2 = {4.0, 5.0, 6.0};
+    //
+    // double result = dotProduct(vec1, vec2);
+    // std::cout << "Dot product: " << result << std::endl;
+    //
+    //
+    //
+    // std::vector<int> vec = {1, 2, 3, 4, 5, 6, 7};
+    // std::cout << "Vector: ";
+    // displayEveryNth(vec, 2);
+    //
+    // std::set<int> s = {1, 2, 3, 4, 5, 6, 7};
+    // std::cout << "Set: ";
+    // displayEveryNth(s, 3);
+    //
+    //
+    // return 0;
 }
 
 int past() {

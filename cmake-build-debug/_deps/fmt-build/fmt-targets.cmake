@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "3.0.0")
    message(FATAL_ERROR "CMake >= 3.0.0 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 3.0.0...3.28)
+cmake_policy(VERSION 3.0.0...3.27)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -51,7 +51,7 @@ add_library(fmt::fmt STATIC IMPORTED)
 
 set_target_properties(fmt::fmt PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_11"
-  INTERFACE_INCLUDE_DIRECTORIES "/Volumes/users/s32802/pjc/cmake-build-debug/_deps/fmt-src/include"
+  INTERFACE_INCLUDE_DIRECTORIES "Z:/pjc/cmake-build-debug/_deps/fmt-src/include"
 )
 
 # Create imported target fmt::fmt-header-only
@@ -60,14 +60,14 @@ add_library(fmt::fmt-header-only INTERFACE IMPORTED)
 set_target_properties(fmt::fmt-header-only PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "FMT_HEADER_ONLY=1"
   INTERFACE_COMPILE_FEATURES "cxx_std_11"
-  INTERFACE_INCLUDE_DIRECTORIES "/Volumes/users/s32802/pjc/cmake-build-debug/_deps/fmt-src/include"
+  INTERFACE_INCLUDE_DIRECTORIES "Z:/pjc/cmake-build-debug/_deps/fmt-src/include"
 )
 
 # Import target "fmt::fmt" for configuration "Debug"
 set_property(TARGET fmt::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fmt::fmt PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "/Volumes/users/s32802/pjc/cmake-build-debug/_deps/fmt-build/libfmtd.a"
+  IMPORTED_LOCATION_DEBUG "Z:/pjc/cmake-build-debug/_deps/fmt-build/libfmtd.a"
   )
 
 # This file does not depend on other imported targets which have
