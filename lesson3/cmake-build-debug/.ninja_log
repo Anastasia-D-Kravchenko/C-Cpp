@@ -1,0 +1,18 @@
+# ninja log v6
+36	3470	7659929558645399	build.ninja	fe5fc67ab571fcca
+48	1163	7659928778061264	_deps/fmt-build/libfmtd.a	685779d1fad3b614
+36	970	7659925409834354	CMakeFiles/lesson3.dir/generic.cpp.obj	ec86eaffbcd4a57a
+59	1672	7659928166597809	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj	dd8ad3c765003184
+973	1194	7659925419199976	lesson3.exe	dc0dc591a3e4f9fa
+53	2363	7659928166441638	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj	2053e935794bdaaa
+41	1536	7659929620479089	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj	65ec0916070c08ca
+36	2190	7659929620479089	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj	6e91a0cfac227579
+50	1197	7659930452877125	_deps/fmt-build/libfmtd.a	685779d1fad3b614
+44	1597	7659932622695809	CMakeFiles/lesson3.dir/generic.cpp.obj	fc85d9fe25182092
+1602	2527	7659932638211271	lesson3.exe	f6d1d1cd779f80b4
+8	1532	7659933445093881	CMakeFiles/lesson3.dir/generic.cpp.obj	fc85d9fe25182092
+1536	2478	7659933460262552	lesson3.exe	f6d1d1cd779f80b4
+51	2872	7659939434049649	CMakeFiles/lesson3.dir/generic.cpp.obj	fc85d9fe25182092
+2875	6151	7659939462330469	lesson3.exe	f6d1d1cd779f80b4
+39	6240	7659943969982942	CMakeFiles/lesson3.dir/generic.cpp.obj	fc85d9fe25182092
+6243	7025	7659944031999192	lesson3.exe	f6d1d1cd779f80b4
