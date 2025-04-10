@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe06ce5f-42ac-448d-80cb-56c29897fab9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.clang-format" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.clang-format" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/dependabot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/dependabot.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/issue_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/issue_template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/pull_request_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/pull_request_template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/cifuzz.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/cifuzz.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/doc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/doc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/lint.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/lint.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/linux.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/linux.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/macos.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/macos.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/scorecard.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/scorecard.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/windows.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.github/workflows/windows.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/ChangeLog.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/ChangeLog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/ChangeLog-old.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/ChangeLog-old.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/fmt.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/fmt.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/fmt.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/fmt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/get-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/get-started.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/python-license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/python-license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/syntax.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/doc/syntax.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/args.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/args.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/base.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/base.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/chrono.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/chrono.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/color.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/color.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/compile.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/compile.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/core.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/core.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/format-inl.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/format-inl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/format.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/format.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/os.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/os.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/ostream.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/ostream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/printf.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/printf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/ranges.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/ranges.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/std.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/std.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/xchar.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/include/fmt/xchar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/src/fmt.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/src/fmt.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/src/format.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/src/format.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/src/os.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/src/os.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/Android.mk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/Android.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/C++.sublime-syntax" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/C++.sublime-syntax" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/README" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/Vagrantfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/bazel/.bazelversion" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/bazel/.bazelversion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/bazel/BUILD.bazel" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/bazel/BUILD.bazel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/bazel/MODULE.bazel" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/bazel/MODULE.bazel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/bazel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/bazel/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/bazel/WORKSPACE.bazel" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/bazel/WORKSPACE.bazel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/check-commits" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/check-commits" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/cmake/FindSetEnv.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/cmake/FindSetEnv.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/cmake/JoinPaths.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/cmake/JoinPaths.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/cmake/fmt-config.cmake.in" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/cmake/fmt-config.cmake.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/cmake/fmt.pc.in" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/cmake/fmt.pc.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/docopt.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/docopt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/mkdocs" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/mkdocs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/printable.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/printable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/python/mkdocstrings_handlers/cxx/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/python/mkdocstrings_handlers/cxx/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/python/mkdocstrings_handlers/cxx/templates/README" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/support/python/mkdocstrings_handlers/cxx/templates/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/add-subdirectory-test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/add-subdirectory-test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/add-subdirectory-test/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/add-subdirectory-test/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/args-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/args-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/assert-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/assert-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/base-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/base-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/chrono-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/chrono-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/color-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/color-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/compile-error-test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/compile-error-test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/compile-fp-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/compile-fp-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/compile-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/compile-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/cuda-test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/cuda-test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/cuda-test/cpp14.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/cuda-test/cpp14.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/cuda-test/cuda-cpp14.cu" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/cuda-test/cuda-cpp14.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/detect-stdfs.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/detect-stdfs.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/enforce-checks-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/enforce-checks-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/find-package-test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/find-package-test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/find-package-test/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/find-package-test/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/format-impl-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/format-impl-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/format-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/format-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/chrono-duration.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/chrono-duration.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/chrono-timepoint.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/chrono-timepoint.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/float.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/float.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/fuzzer-common.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/fuzzer-common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/named-arg.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/named-arg.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/one-arg.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/one-arg.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/two-args.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/fuzzing/two-args.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest-extra-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest-extra-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest-extra.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest-extra.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest-extra.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest-extra.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest/.clang-format" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest/.clang-format" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest/gmock-gtest-all.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest/gmock-gtest-all.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest/gmock/gmock.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest/gmock/gmock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest/gtest/gtest-spi.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest/gtest/gtest-spi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest/gtest/gtest.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/gtest/gtest/gtest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/header-only-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/header-only-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/mock-allocator.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/mock-allocator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/module-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/module-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/noexception-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/noexception-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/os-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/os-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/ostream-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/ostream-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/perf-sanity.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/perf-sanity.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/posix-mock-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/posix-mock-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/posix-mock.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/posix-mock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/printf-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/printf-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/ranges-odr-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/ranges-odr-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/ranges-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/ranges-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/scan-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/scan-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/scan.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/scan.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/static-export-test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/static-export-test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/static-export-test/library.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/static-export-test/library.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/static-export-test/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/static-export-test/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/std-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/std-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/test-assert.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/test-assert.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/test-main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/test-main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/unicode-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/unicode-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/util.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/util.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/util.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/xchar-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/fmt-src/test/xchar-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2uxZGJQZeocAmeD22lBf60NLxPM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.main.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/users/s32802/pjc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pjc" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.main.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe06ce5f-42ac-448d-80cb-56c29897fab9" name="Changes" comment="" />
+      <created>1741433757169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741433757169</updated>
+      <workItem from="1741433760664" duration="313000" />
+      <workItem from="1741434377333" duration="149000" />
+      <workItem from="1741870889680" duration="5202000" />
+      <workItem from="1741955743182" duration="7428000" />
+      <workItem from="1741970845767" duration="10647000" />
+      <workItem from="1741997854545" duration="1499000" />
+      <workItem from="1742132635712" duration="6694000" />
+      <workItem from="1742405837944" duration="3093000" />
+      <workItem from="1742409358262" duration="3495000" />
+      <workItem from="1742416741836" duration="14731000" />
+      <workItem from="1743192091433" duration="1168000" />
+      <workItem from="1743193379662" duration="1191000" />
+      <workItem from="1743361248445" duration="4000" />
+      <workItem from="1743626407289" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/fmt" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

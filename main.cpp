@@ -684,8 +684,15 @@ auto reduceAdjacentWhitespaces(std::string x) {
     return modstr;
 }
 
+namespace pjc::ranges {
+    template <typename Container, typename Func>
+    auto process_range(const Container& input, Func func) {
+        Container output;
+        std::transform(input.begin(), input.end(), std::back_inserter(output), func);
+        return output;
+    }
+}
 auto main() -> int {
-
 //     auto iter = std::vector<std::string>{"hello", "world"};
 //     // auto start = iter.begin();
 //     auto end = iter.end();
@@ -1048,12 +1055,20 @@ auto main() -> int {
     // v3::printLongestString(strings);
     // v4::printLongestString(strings);
 
-    fmt::println(
-            "[{}]\n[{}]\n[{}]\n[{}]",
-            reduceAdjacentWhitespaces("Abc"),
-            reduceAdjacentWhitespaces("A b c"),
-            reduceAdjacentWhitespaces("   A\tb c      "),
-            reduceAdjacentWhitespaces("A\t\tb\n \n  \t c")
-    );
+    // fmt::println(
+    //         "[{}]\n[{}]\n[{}]\n[{}]",
+    //         reduceAdjacentWhitespaces("Abc"),
+    //         reduceAdjacentWhitespaces("A b c"),
+    //         reduceAdjacentWhitespaces("   A\tb c      "),
+    //         reduceAdjacentWhitespaces("A\t\tb\n \n  \t c")
+    // );
+
+    std::vector<int> numbers = {1, 2, 3, 4, 5};
+    auto result = pjc::ranges::process_range(numbers, [](int x) { return x * 2; });
+
+    for (const auto& num : result) {
+        std::cout << num << " ";
+    }
+
 
 }
