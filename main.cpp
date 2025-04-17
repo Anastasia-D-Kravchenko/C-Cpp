@@ -1,21 +1,21 @@
 ////
 //// Created by Anastasiia Kravchenko on 14.03.2025.
 ////
-//#include <iostream>
-//#include <vector>
-//#include <string>
-//#include <algorithm>
-//#include <cstdlib>
-//#include <ctime>
-//#include <ranges>
-//#include <map>
-//#include <cassert>
-//#include <set>
-//#include <fmt/core.h>
-//
-//#include "lesson1/main.h"
-//#include "lesson1/ShortTest1.h"
-//#include "lesson2/iterator.h"
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <cstdlib>
+#include <ctime>
+#include <ranges>
+#include <map>
+#include <cassert>
+#include <set>
+#include <fmt/core.h>
+
+#include "lesson1/main.h"
+#include "lesson1/ShortTest1.h"
+#include "lesson2/iterator.h"
 //
 //// namespace v1 {
 ////     void printLongestString(std::vector<std::string> vec) {
@@ -574,10 +574,6 @@
 //         }else std::cout << "#";
 //     }
 // }
-
-#include <iostream>
-#include <vector>
-#include <set>
 #include <fmt/ranges.h>
 //
 // auto printhi() -> void {
@@ -1063,12 +1059,26 @@ auto main() -> int {
     //         reduceAdjacentWhitespaces("A\t\tb\n \n  \t c")
     // );
 
-    std::vector<int> numbers = {1, 2, 3, 4, 5};
-    auto result = pjc::ranges::process_range(numbers, [](int x) { return x * 2; });
+    // std::vector<int> numbers = {1, 2, 3, 4, 5};
+    // auto result = pjc::ranges::process_range(numbers, [](int x) { return x * 2; });
+    //
+    // for (const auto& num : result) {
+    //     std::cout << num << " ";
+    // }
 
-    for (const auto& num : result) {
-        std::cout << num << " ";
-    }
+        auto map = std::map<std::string, int>();
+
+        fmt::println("{}", map.size());
+
+        map["hello"] = 1;
+
+        fmt::println("{}", map["hello"]);
+        fmt::println("{}", map["there"]);
+        fmt::println("{}", map.size());
+
+        for (auto pair : map) {
+            fmt::println("{}", pair.first.size());
+        }
 
 
 }

@@ -1,0 +1,21 @@
+# ninja log v6
+9	65	7665963447882289	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	d95596eee1131889
+9	65	7665963447882289	Z:/pjc/lesson4/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	d95596eee1131889
+67	8480	7665963532024486	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	b6cd1898f828eb9e
+67	8480	7665963532024486	Z:/pjc/lesson4/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	b6cd1898f828eb9e
+8481	8679	7665963532180673	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	4f4c62c2f89c6bf3
+8481	8679	7665963532180673	Z:/pjc/lesson4/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	4f4c62c2f89c6bf3
+8680	8728	7665963534493465	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	fa75ae8b9b86c140
+8680	8728	7665963534493465	Z:/pjc/lesson4/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	fa75ae8b9b86c140
+8729	8774	7665963534962512	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	2aa074cd6077fd19
+8729	8774	7665963534962512	Z:/pjc/lesson4/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	2aa074cd6077fd19
+8775	8819	7665963535488437	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	11a529526325b4c1
+8775	8819	7665963535488437	Z:/pjc/lesson4/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	11a529526325b4c1
+8821	8866	7665963535960555	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	f763ed120bc32e
+8821	8866	7665963535960555	Z:/pjc/lesson4/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	f763ed120bc32e
+8867	8911	7665963536429387	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	3df7d7065179a4ee
+8867	8911	7665963536429387	Z:/pjc/lesson4/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	3df7d7065179a4ee
+8912	8979	7665963537057083	CMakeFiles/fmt-populate-complete	9c6eb7d459ca459c
+8912	8979	7665963537057083	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	9c6eb7d459ca459c
+8912	8979	7665963537057083	Z:/pjc/lesson4/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate-complete	9c6eb7d459ca459c
+8912	8979	7665963537057083	Z:/pjc/lesson4/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	9c6eb7d459ca459c

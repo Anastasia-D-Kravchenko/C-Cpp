@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.26)
-project(pjc26)
+project(lesson4)
 
 set(CMAKE_CXX_STANDARD 20)
 
@@ -13,10 +13,10 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(fmt)
 
-add_executable(pjc26 lesson3/generic.h)
-#add_executable(pjc26 lesson2/iterator.cpp)
-#
-#add_executable(pjc26 lesson2/set.cpp fmt)
-target_link_libraries(pjc26 fmt)
+include_directories(.)
 
+add_executable(lesson4
+        main.cpp
+)
 
+target_link_libraries(lesson4 fmt)
